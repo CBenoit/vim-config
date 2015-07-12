@@ -31,31 +31,32 @@ Plugin 'gmarik/Vundle.vim', {'name': 'vundle'}
 " >> Plugins from github repositories
 
 " Plugin to search for a pattern in files.
-Plugin 'mileszs/ack.vim.git'
-" Plugin to search for files.
-Plugin 'kien/ctrlp.vim'
-" Help to define and maintain consistent coding styles.
-Plugin 'editorconfig/editorconfig-vim.git'
-" Fuzzy file and buffer explorer !
-Plugin 'sjbach/lusty'
-" Useful plugin to align regions of text.
-Plugin 'godlygeek/tabular'
-" Excellent solution for snippets in Vim.
-Plugin 'sirver/ultisnips'
-" An awesome Git wrapper !
-Plugin 'tpope/vim-fugitive'
-" Better C++ highlight.
-Plugin 'octol/vim-cpp-enhanced-highlight'
-" Support for markdown.
-Plugin 'plasticboy/vim-markdown.git'
-" A colorscheme.
-Plugin 'crusoexia/vim-monokai'
-" Various snippets for UltiSnips.
-Plugin 'honza/vim-snippets'
+Plugin 'mileszs/ack.vim'
 " A beautiful status/tabline.
 Plugin 'bling/vim-airline'
+" Plugin to search for files.
+Plugin 'kien/ctrlp.vim'
+" Better C++ highlight.
+Plugin 'octol/vim-cpp-enhanced-highlight'
+" Help to define and maintain consistent coding styles.
+Plugin 'editorconfig/editorconfig-vim'
+" An awesome Git wrapper !
+Plugin 'tpope/vim-fugitive'
+" A fuzzy file and buffer explorer !
+Plugin 'sjbach/lusty'
+" Various snippets for UltiSnips.
+Plugin 'honza/vim-snippets'
+" Useful plugin to align regions of text.
+Plugin 'godlygeek/tabular'
+" Excellent solution to handle snippets in Vim.
+Plugin 'sirver/ultisnips'
+" Support for markdown.
+Plugin 'plasticboy/vim-markdown'
 " Autocompletion plugin.
 Plugin 'Valloric/YouCompleteMe'
+
+" A beautiful colorscheme.
+Plugin 'crusoexia/vim-monokai'
 
 " >> Local plugins
 
