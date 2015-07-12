@@ -1,0 +1,7 @@
+" Add some shortcuts to tabularize.
+nmap <leader>a= NTabularize /=<CR>
+vmap <leader>a= NTabularize /=<CR>
+
+nmap <leader>a: NTabularize /:\zs<CR>
+vmap <leader>a: NTabularize /:\zs<CR>
+

@@ -1,0 +1,17 @@
+" /!\ It may be necessary to update this file regarding LustyExplorer and
+" LustyJuggler updates.
+
+" Disable default LustyExplorer mapping.
+let g:LustyExplorerDefaultMappings = 0
+
+" Remap the shortcuts for bépo-qwerty.
+nmap <silent> <Leader>f NLustyFilesystemExplorer<CR>
+nmap <silent> <Leader>r NLustyFilesystemExplorerFromHere<CR>
+nmap <silent> <Leader>b NLustyBufferExplorer<CR>
+nmap <silent> <Leader>g NLustyBufferGrep<CR>
+
+" Disable default LustyJuggler mapping as well.
+let g:LustyJugglerDefaultMappings = 0
+
+" nmap <silent> <Leader>lj NLustyJuggler<CR>
+
