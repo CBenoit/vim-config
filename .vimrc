@@ -78,32 +78,6 @@ if installVundle == 1
     :PluginInstall
 endif
 
-" ___________ Plugins configuration ________
-
-" >> EditorConfig
-" To ensure that editorconfig works well with Tim Pope's fugitive
-let g:EditorConfig_exclude_patterns = ['fugitive://.*']
-
-" >> CtrlP
-" Adding CtrlP shortcut.
-let g:ctrlp_map = '<leader>c'
-
-" >> UltiSnips
-" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
-let g:UltiSnipsExpandTrigger       = "<c-j>"
-let g:UltiSnipsJumpForwardTrigger  = "<c-j>"
-let g:UltiSnipsJumpBackwardTrigger = "<c-k>"
-
-" If you want :UltiSnipsEdit to split your window.
-let g:UltiSnipsEditSplit = "vertical"
-
-" >> Airline
-let g:airline_powerline_fonts            = 0
-let g:airline#extensions#tabline#enabled = 1
-let g:airline_left_sep                   = '▶'
-let g:airline_right_sep                  = '◀'
-" ——————————————————————————————————————————
-
 " ——— Display ———
 set title	" Update window / terminal title.
 set number	" Display line number.
@@ -215,24 +189,56 @@ noremap <leader>cd :cd %:p:h<CR>
 " current window).
 noremap <leader>lcd :lcd %:p:h<CR>
 
-" Remap PageUp and PageDown.
-nnoremap <leader>s <PageUp>
-nnoremap <leader>t <PageDown>
+" Set isbepo variable.
+source ~/.vim/conf/isbepo.vim
 
-" Bépo related stuff.
-let bepo = 1
-if bepo == 1
+if isbepo == 1
     " Remap bépo keys to qwerty (except for insert mode).
-    source ~/.vim/.vimrc.bepo-qwerty
-    source ~/.vim/.vimrc.lusty-bepo-qwerty
-    source ~/.vim/.vimrc.ack-bepo-qwerty
-    source ~/.vim/.vimrc.tabular-bepo-qwerty
+    source ~/.vim/conf/bepo-qwerty.vim
 
     " Move through wrapped lines using usual keys.
     noremap s gk
     noremap t gj
+
+    " Remap PageUp and PageDown.
+    nnoremap <leader>s <PageUp>
+    nnoremap <leader>t <PageDown>
 else
     noremap k gk
     noremap j gj
+
+    nnoremap <leader>k <PageUp>
+    nnoremap <leader>j <PageDown>
 endif
+
+" ___________ Plugins configuration ________
+
+" >> EditorConfig
+" To ensure that editorconfig works well with Tim Pope's fugitive
+let g:EditorConfig_exclude_patterns = ['fugitive://.*']
+
+" >> CtrlP
+" Adding CtrlP shortcut.
+let g:ctrlp_map = '<leader>c'
+
+" >> UltiSnips
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger       = "<c-j>"
+let g:UltiSnipsJumpForwardTrigger  = "<c-j>"
+let g:UltiSnipsJumpBackwardTrigger = "<c-k>"
+
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit = "vertical"
+
+" >> Airline
+let g:airline_powerline_fonts            = 0
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_left_sep                   = '▶'
+let g:airline_right_sep                  = '◀'
+
+source ~/.vim/conf/lusty.vim
+source ~/.vim/conf/ack.vim
+source ~/.vim/conf/tabular.vim
+
+" ——————————————————————————————————————————
 

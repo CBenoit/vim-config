@@ -41,6 +41,12 @@ You can check with `vim --version | grep '+python'` and `vim -- version | grep '
 Colorscheme used :
 [Monokai](https://github.com/crusoexia/vim-monokai)
 
+## About Ack
+
+Ack.vim is a frontend for the Perl module [Ack](http://beyondgrep.com/).
+You need Ack (>= 2.0) to use the plugin. To install follow the [manual](http://beyondgrep.com/install/).
+You may have to change the `g:ackprg` variable in [conf/ack.vim](conf/ack.vim) file (for instance, under Debian, the name is `ack-grep` instead of `ack`).
+
 ## About auto-completion
 
 To use YouCompleteMe plugin, you'll need to build a third party program. You should read the doc about it with `:help youcompleteme`.
