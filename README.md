@@ -27,9 +27,10 @@ You can check with `vim --version | grep '+python'` and `vim -- version | grep '
 
 ## BÉPO friendly
 
-This configuration works for BÉPO, QWERTY and AZERTY.
+This configuration works for BÉPO, QWERTY and AZERTY layouts.
 You just have to tell whether you are using BÉPO or not by modifying [isbepo.vim](conf/isbepo.vim) file.
-You should add `conf/isbepo.vim` to your .gitignore.
+You should add `conf/isbepo.vim` to your `.gitignore` file.
+If `isbepo` variable is set to `1`. Then, all keys are remaped to QWERTY while in NORMAL and VISUAL mode.
 
 ## Plugins
 
