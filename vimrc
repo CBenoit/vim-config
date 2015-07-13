@@ -34,6 +34,8 @@ Plugin 'gmarik/Vundle.vim', {'name': 'vundle'}
 Plugin 'mileszs/ack.vim'
 " A beautiful status/tabline.
 Plugin 'bling/vim-airline'
+" Automatically close any character that could have a closing counterpart.
+Plugin 'Townk/vim-autoclose'
 " Plugin to search for files.
 Plugin 'kien/ctrlp.vim'
 " Better C++ highlight.

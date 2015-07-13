@@ -36,6 +36,7 @@ If `isbepo` variable is set to `1`. Then, all keys are remaped to QWERTY while i
 
 + [Ack](https://github.com/mileszs/ack.vim) — Search for pattern in files.
 + [Airline](https://github.com/bling/vim-airline) — A beautiful status bar.
++ [AutoClose](https://github.com/Townk/vim-autoclose) — Automatically close any character that could have a closing counterpart.
 + [ctrlp](https://github.com/kien/ctrlp.vim) — Search for files.
 + [Cpp Enhanced Highlight](https://github.com/octol/vim-cpp-enhanced-highlight) — Better C++ highlight.
 + [EditorConfig](https://github.com/editorconfig/editorconfig-vim) — Help to define and maintain consistent coding styles.
