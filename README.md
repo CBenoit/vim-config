@@ -1,16 +1,17 @@
 # CBenoit VIM config
 
 I assume that you are under a Unix based system.
-
-Put .vim folder in your home directory.
-`$ mv .vim ~`
-
-To use the .vimrc :
-`$ ln -s ~/.vim/.vimrc ~/.vimrc`
-
 Don't hesitate to change anything to fit your needs.
 
 ## Installation
+
+Backup your `~/.vim` folder if you want to.
+
+Get this config from github.
+`$ git clone https://github.com/CBenoit/vim-config ~/.vim`
+
+Create a symbolic link to ~/.vim/vimrc :
+`$ ln -s ~/.vim/vimrc ~/.vimrc`
 
 Plugins managed using Vundle! You can easily install or remove plugins, and they are installed into ~/.vim/bundle/.
 See https://github.com/gmarik/vundle for more information.
@@ -23,6 +24,12 @@ If gvim isn't appearing, try to run text based vim from terminal.
 
 You'll need vim 7.4+ compiled with python and ruby support (if you use all plugins in my .vimrc file).
 You can check with `vim --version | grep '+python'` and `vim -- version | grep '+ruby'` or you can use vim command mode : `:echo has('python')` and `:echo has('ruby')`.
+
+## BÉPO friendly
+
+This configuration works for BÉPO, QWERTY and AZERTY.
+You just have to tell whether you are using BÉPO or not by modifying [isbepo.vim](conf/isbepo.vim) file.
+You should add `conf/isbepo.vim` to your .gitignore.
 
 ## Plugins
 
