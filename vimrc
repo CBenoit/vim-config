@@ -162,6 +162,9 @@ vnoremap <Tab> >gv
 vnoremap <S-Tab> <gv
 " ——————————————————
 
+" Save using sudo with :w!!
+ca w!! w !sudo tee "%"
+
 " Disable arrows keys.
 map <up> <nop>
 map <down> <nop>
