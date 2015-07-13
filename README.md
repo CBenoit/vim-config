@@ -33,6 +33,7 @@ You can check with `vim --version | grep '+python'` and `vim -- version | grep '
 + [EditorConfig](https://github.com/editorconfig/editorconfig-vim) — Help to define and maintain consistent coding styles.
 + [Fugitive](https://github.com/tpope/vim-fugitive) — An awesome Git wrapper.
 + [LustyExplorer & LustyJuggler](https://github.com/sjbach/lusty) — A fuzzy file and buffer explorer.
++ [Multiple cursors](https://github.com/kristijanhusak/vim-multiple-cursors) — Sublime Text-like multiple cursors feature.
 + [Tabular](https://github.com/godlygeek/tabular) — To align regions of text.
 + [UltiSnips](https://github.com/sirver/ultisnips) — Excellent solution to handle snippets in VIM.
 + [VIM Markdown](https://github.com/plasticboy/vim-markdown) — Support for markdown.
@@ -71,6 +72,11 @@ Since YouCompleteMe already use "Tab" key, I choose "c-j" (Ctrl + J) as UltiSnip
 By the way, YouCompleteMe provides a nice completion menu for UltiSnips.
 
 My .vimrc file comes with tons of snippets from [honza repository](https://github.com/honza/vim-snippets).
+
+## About multiples cursors
+
+In order to go back to regular VIM, you cannot use an "esc" alias ("ii" in my case). You have to use the actual "esc" key.
+See `:h multiple-cursors-mappings` for more information.
 
 ## Good resources to learn more about VIM editor
 

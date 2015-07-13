@@ -44,6 +44,8 @@ Plugin 'editorconfig/editorconfig-vim'
 Plugin 'tpope/vim-fugitive'
 " A fuzzy file and buffer explorer !
 Plugin 'sjbach/lusty'
+" Sublime Text-like multiple cursors feature.
+Plugin 'kristijanhusak/vim-multiple-cursors'
 " Various snippets for UltiSnips.
 Plugin 'honza/vim-snippets'
 " Useful plugin to align regions of text.
