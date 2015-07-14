@@ -13,7 +13,7 @@ t — déplacement vers le bas
 s — déplacement vers le haut
 r — déplacement vers la droite
 é — début du mot suivant
-É — début du mot suivant
+É — début du MOT suivant
 p — fin du mot suivant
 P — fin du MOT suivant
 k — début du mot précédent
@@ -26,11 +26,11 @@ K — début du MOT précédent
 
 ```
 d — insertion avant
-D — insertion fin
+D — insertion fin de ligne
 a — insertion après
-A — insertion début
-l — insère une nouvelle ligne en dessous de la ligne courante et entre en mode insertion
-L — insère une nouvelle ligne au dessus de la ligne courante et entre en mode insertion
+A — insertion début de ligne
+l — insère une nouvelle ligne en dessous de la ligne courante et passe en mode insertion
+L — insère une nouvelle ligne au dessus de la ligne courante et passe en mode insertion
 u — supprime le caractère sous le curseur et passe en mode insertion
 U — supprime la ligne et passe en mode insertion
 ```
@@ -121,20 +121,26 @@ y — supprimer/couper la sélection
 ## Plugin : UltiSnips
 
 ```
-CTRL-j — Valider l'ouverture d'un snippet
-    (dans un snippet) Aller à la zone suivante
-CTRL-k — (dans un snippet) Aller à la zone précédente
-CTRL-TAB — Afficher les snippets correspondants
+CTRL-j — valider l'ouverture d'un snippet
+    (dans un snippet) aller à la zone suivante
+CTRL-k — (dans un snippet) aller à la zone précédente
+CTRL-TAB — afficher les snippets correspondants
 ```
 
 ## Plugin : Multiple cursors
 
 ```
-CTRL-n — (en mode normal) Surligne le mot sous le curseur et place un curseur virtuel à la fin
-        (après avoir sélectionné le premier mot) Trouve la prochaine occurrence du mot et place un autre curseur virtuel à la fin
-        (en mode visuel) Place un curseur virtuel à chaque ligne et retourne en mode normal
-CTRL-p — (après avoir sélectionné des mots) Supprime le dernier curseur virtuel et retourne au précédent
-CTRL-x — (après avoir sélectionné des mots) Supprime le dernier curseur virtuel et en place un à la prochaine occurrence
+CTRL-n — (en mode normal) surligne le mot sous le curseur et place
+                          un curseur virtuel à la fin
+        (après avoir sélectionné le premier mot) Trouve la prochaine
+                          occurrence du mot et place un autre
+                          curseur virtuel à la fin
+        (en mode visuel) place un curseur virtuel à chaque ligne et
+                         retourne en mode normal
+CTRL-p — (après avoir sélectionné des mots) Supprime le dernier
+                           curseur virtuel et retourne au précédent
+CTRL-x — (après avoir sélectionné des mots) Supprime le dernier
+            curseur virtuel et en place un à la prochaine occurrence
 ESCAPE — retour au VIM normal
 ```
 

@@ -30,14 +30,16 @@ Plugin 'gmarik/Vundle.vim', {'name': 'vundle'}
 
 " >> Plugins from github repositories
 
-" Plugin to search for a pattern in files.
+" To search for a pattern in files.
 Plugin 'mileszs/ack.vim'
 " A beautiful status/tabline.
 Plugin 'bling/vim-airline'
 " Automatically close any character that could have a closing counterpart.
 Plugin 'Townk/vim-autoclose'
-" Plugin to search for files.
+" To search for files.
 Plugin 'kien/ctrlp.vim'
+" To colorize all text in the form #rrggbb or #rgb.
+Plugin 'lilydjwg/colorizer'
 " Better C++ highlight.
 Plugin 'octol/vim-cpp-enhanced-highlight'
 " Help to define and maintain consistent coding styles.
@@ -56,7 +58,7 @@ Plugin 'godlygeek/tabular'
 Plugin 'sirver/ultisnips'
 " Support for markdown.
 Plugin 'plasticboy/vim-markdown'
-" Autocompletion plugin.
+" Autocompletion.
 Plugin 'Valloric/YouCompleteMe'
 
 " A beautiful colorscheme.
