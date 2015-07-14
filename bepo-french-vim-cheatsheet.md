@@ -1,7 +1,7 @@
 # Antisèche VIM pour BÉPO (en BÉPO-QWERTY)
 
 Dans cette antisèche, l'esperluette « & » représente la touche leader.
-Les commentaires avec « (!) » à la fin sont des raccourcis créés ou modifiés dans [ma configuration VIM](https://github.com/CBenoit/vim-config).
+Les commentaires avec « (*) » à la fin sont des raccourcis créés ou modifiés dans [ma configuration VIM](https://github.com/CBenoit/vim-config).
 
 ## Mode normal
 
@@ -42,7 +42,7 @@ N — mode commande
 . — mode visuel
 : — mode visuel ligne
 ESCAPE — retour au mode normal
-ii — alias de ESCAPE (!)
+ii — alias de ESCAPE (*)
 ```
 
 ### Presse papier
@@ -81,12 +81,12 @@ F — chercher (vers le haut)
 ### Raccourcis
 
 ```
-&w — sauvegarder le fichier courant (!)
-&q — fermer le fichier courant (!)
-&cd — changer le répertoire de travail de tous les onglets à celui du fichier courant (!)
-&lcd — changer le répertoire de travail de l'onglet courant à celui du fichier courant (!)
-&s — alias de PageUp (!)
-&t — alias de PageDown (!)
+&w — sauvegarder le fichier courant (*)
+&q — fermer le fichier courant (*)
+&cd — changer le répertoire de travail de tous les onglets à celui du fichier courant (*)
+&lcd — changer le répertoire de travail de l'onglet courant à celui du fichier courant (*)
+&s — alias de PageUp (*)
+&t — alias de PageDown (*)
 ```
 
 ## Mode commande
@@ -95,7 +95,7 @@ F — chercher (vers le haut)
 42 — aller à la ligne 42
 
 w — sauvegarder
-w!! — sauvegarder avec sudo (!)
+w!! — sauvegarder avec sudo (*)
 q — quitter
 new — nouveau fichier
 ```
@@ -153,30 +153,30 @@ TAB — (dans le menu d'autocompletion) sélectionner la proposition suivante
 ## Plugin ctrlP
 
 ```
-&c — lancer une recherche avec ctrlP (!)
+&c — lancer une recherche avec ctrlP (*)
 ```
 
 ## Plugin LustyExplorer
 
 ```
-&f — ouvrir l'exploreur de fichiers (!)
-&r — ouvrir l'exploreur de fichiers en partant du fichier courant (!)
-&b — ouvrir l'exploreur de buffers (!)
-&g — lancer une recherche dans les buffers (!)
+&f — ouvrir l'exploreur de fichiers (*)
+&r — ouvrir l'exploreur de fichiers en partant du fichier courant (*)
+&b — ouvrir l'exploreur de buffers (*)
+&g — lancer une recherche dans les buffers (*)
 ```
 
 ## Plugin Ack
 
 ```
-&j — prépare la commande Ack pour lancer une recherche (!)
-&ja — lance une recherche du mot sous le curseur (!)
-&jA — lance une recherche du MOT sous le curseur (!)
+&j — prépare la commande Ack pour lancer une recherche (*)
+&ja — lance une recherche du mot sous le curseur (*)
+&jA — lance une recherche du MOT sous le curseur (*)
 ```
 
 ## Plugin Tabular
 
 ```
-&a= — aligne en fonction du caractère « = » (!)
-&a: — aligne en fonction du caractère « : » (!)
+&a= — aligne en fonction du caractère « = » (*)
+&a: — aligne en fonction du caractère « : » (*)
 ```
 
