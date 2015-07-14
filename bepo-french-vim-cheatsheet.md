@@ -132,14 +132,14 @@ CTRL-TAB — afficher les snippets correspondants
 ```
 CTRL-n — (en mode normal) surligne le mot sous le curseur et place
                           un curseur virtuel à la fin
-        (après avoir sélectionné le premier mot) Trouve la prochaine
+        (après avoir sélectionné le premier mot) trouve la prochaine
                           occurrence du mot et place un autre
                           curseur virtuel à la fin
         (en mode visuel) place un curseur virtuel à chaque ligne et
                          retourne en mode normal
-CTRL-p — (après avoir sélectionné des mots) Supprime le dernier
+CTRL-p — (après avoir sélectionné des mots) supprime le dernier
                            curseur virtuel et retourne au précédent
-CTRL-x — (après avoir sélectionné des mots) Supprime le dernier
+CTRL-x — (après avoir sélectionné des mots) supprime le dernier
             curseur virtuel et en place un à la prochaine occurrence
 ESCAPE — retour au VIM normal
 ```
@@ -169,8 +169,8 @@ TAB — (dans le menu d'autocompletion) sélectionner la proposition suivante
 
 ```
 &j — prépare la commande Ack pour lancer une recherche (*)
-&ja — lance une recherche du mot sous le curseur (*)
-&jA — lance une recherche du MOT sous le curseur (*)
+&ja — prépare une recherche du mot sous le curseur (*)
+&jA — prépare une recherche du MOT sous le curseur (*)
 ```
 
 ## Plugin Tabular
