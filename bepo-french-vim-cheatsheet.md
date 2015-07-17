@@ -3,6 +3,27 @@
 Dans cette antisèche, l'esperluette « & » représente la touche leader.
 Les commentaires avec « (*) » à la fin sont des raccourcis créés ou modifiés dans [ma configuration VIM](https://github.com/CBenoit/vim-config).
 
++ [Mode normal](#mode-normal)
+    + [Déplacement](#déplacement)
+    + [Insertion](#insertion)
+    + [Changement de mode](#changement-de-mode)
+    + [Presse papier](#presse-papier)
+    + [Défaire, refaire](#défaire-refaire)
+    + [Manipulation du texte](#manipulation-du-texte)
+    + [Recherche](#recherche)
+    + [Raccourcis](#raccourcis)
++ [Mode commande](#mode-commande)
++ [Mode visuel](#mode-visuel)
+    + [Insertion](#insertion)
+    + [Manipulation du texte](#manipulation-du-texte-1)
++ [Plugin UltiSnips](#plugin-ultisnips)
++ [Plugin Multiple cursors](#plugin-multiple-cursors)
++ [Plugin ctrlP](#plugin-ctrlp)
++ [Plugin LustyExplorer](#plugin-lustyexplorer)
++ [Plugin Ack](#plugin-ack)
++ [Plugin Tabular](#plugin-tabular)
++ [Plugin NeoComplete](#plugin-neocomplete)
+
 ## Mode normal
 
 ### Déplacement
@@ -89,6 +110,19 @@ F — chercher (vers le haut)
 &t — alias de PageDown (*)
 ```
 
+### Les replis
+
+```
+ào – ouvrir un repli (à un niveau).
+àc — fermer un repli (à un niveau).
+àa — ouvrir un repli fermé, fermer un repli ouvert (à un niveau).
+àO — àC — àA — pareil, mais à tous les niveaux.
+àr — ouvre tout un niveau de replis.
+àR — ouvre tous les replis.
+àm — ferme tout un niveau de replis.
+àM — ferme tous les replis.
+```
+
 ## Mode commande
 
 ```
@@ -118,7 +152,7 @@ V — mettre en majuscule la sélection
 y — supprimer/couper la sélection
 ```
 
-## Plugin : UltiSnips
+## Plugin UltiSnips
 
 ```
 CTRL-j — valider l'ouverture d'un snippet
@@ -127,7 +161,7 @@ CTRL-k — (dans un snippet) aller à la zone précédente
 CTRL-TAB — afficher les snippets correspondants
 ```
 
-## Plugin : Multiple cursors
+## Plugin Multiple cursors
 
 ```
 CTRL-n — (en mode normal) surligne le mot sous le curseur et place
