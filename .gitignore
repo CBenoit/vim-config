@@ -1,0 +1,9 @@
+# Files
+*.swp
+conf/isbepo.vim
+.gitignore
+.netrwhist
+
+# Folders
+bundle/*
+
