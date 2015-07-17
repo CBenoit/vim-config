@@ -1,5 +1,7 @@
 # CBenoit VIM config
 
+![Preview screenshot](http://i.imgur.com/cy9khCJ.png)
+
 I assume that you are under a Unix based system.
 Don't hesitate to change anything to fit your needs.
 
