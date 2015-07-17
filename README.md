@@ -45,6 +45,7 @@ If `isbepo` variable is set to `1`. Then, all keys are remaped to QWERTY while i
 + [Multiple cursors](https://github.com/kristijanhusak/vim-multiple-cursors) — Sublime Text-like multiple cursors feature.
 + [Markdown](https://github.com/plasticboy/vim-markdown) — Support for markdown.
 + [NeoComplete](https://github.com/Shougo/neocomplete.vim) — Handle completion.
++ [Syntastic](https://github.com/scrooloose/syntastic) — Syntax checking.
 + [Tabular](https://github.com/godlygeek/tabular) — To align regions of text.
 + [UltiSnips](https://github.com/sirver/ultisnips) — Excellent solution to handle snippets in VIM.
 
@@ -90,6 +91,15 @@ My .vimrc file comes with tons of snippets from [honza repository](https://githu
 
 In order to go back to regular VIM, you cannot use an "esc" alias ("ii" in my case). You have to use the actual "esc" key.
 See `:h multiple-cursors-mappings` for more information.
+
+## About syntax checker : Syntastic
+
+Syntastic does not know how to check syntax by itself.
+So, you need to install external checkers corresponding to the types of files you use.
+See [Syntastic wiki](https://github.com/scrooloose/syntastic/wiki/Syntax-Checkers) for a fair list of syntax checkers.
+
+To check Python syntax, I use [Pylint](https://github.com/scrooloose/syntastic/wiki/Python%3A---pylint).
+Since I'm a Python 3 developer, I set a Python 3 interpreter in my [syntastic.vim](./conf/syntastic.vim) conf file.
 
 ## Good resources to learn more about VIM editor
 

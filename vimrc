@@ -54,6 +54,8 @@ Plugin 'plasticboy/vim-markdown'
 Plugin 'Shougo/neocomplete.vim'
 " Various snippets for UltiSnips.
 Plugin 'honza/vim-snippets'
+" Syntax checking
+Plugin 'scrooloose/syntastic'
 " Useful plugin to align regions of text.
 Plugin 'godlygeek/tabular'
 " Excellent solution to handle snippets in Vim.
@@ -242,11 +244,14 @@ let g:airline_powerline_fonts            = 0
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_left_sep                   = '▶'
 let g:airline_right_sep                  = '◀'
+" Make the statusline appear all the time.
+set laststatus=2
 
 source ~/.vim/conf/lusty.vim
 source ~/.vim/conf/ack.vim
 source ~/.vim/conf/tabular.vim
 source ~/.vim/conf/neocomplete.vim
+source ~/.vim/conf/syntastic.vim
 
 " ——————————————————————————————————————————
 
