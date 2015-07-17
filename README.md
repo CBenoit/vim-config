@@ -3,6 +3,19 @@
 I assume that you are under a Unix based system.
 Don't hesitate to change anything to fit your needs.
 
++ [Installation](#installation)
+    + [Dependencies](#dependencies)
++ [BÉPO friendly](#bÉpo-friendly)
++ [Plugins](#plugins)
+    + [You might be interested in](#you-might-be-interested-in)
++ [About Ack](#about-ack)
++ [About auto-completion](#about-auto-completion)
++ [About snippets](#about-snippets)
++ [About multiples cursors](#about-multiples-cursors)
++ [About syntax checker : Syntastic](#about-syntax-checker--syntastic)
++ [Good resources to learn more about VIM editor](#good-resources-to-learn-more-about-vim-editor)
+    + [Inspirations](#inspirations)
+
 ## Installation
 
 Backup your `~/.vim` folder if you want to.
