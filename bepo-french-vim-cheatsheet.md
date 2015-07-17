@@ -12,6 +12,7 @@ Les commentaires avec « (*) » à la fin sont des raccourcis créés ou modif
     + [Manipulation du texte](#manipulation-du-texte)
     + [Recherche](#recherche)
     + [Raccourcis](#raccourcis)
+    + [Les replis](#les-replis)
 + [Mode commande](#mode-commande)
 + [Mode visuel](#mode-visuel)
     + [Insertion](#insertion)
