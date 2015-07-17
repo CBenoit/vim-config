@@ -144,11 +144,6 @@ CTRL-x — (après avoir sélectionné des mots) supprime le dernier
 ESCAPE — retour au VIM normal
 ```
 
-## Plugin : YouCompleteMe
-
-```
-TAB — (dans le menu d'autocompletion) sélectionner la proposition suivante
-```
 
 ## Plugin ctrlP
 
@@ -178,5 +173,13 @@ TAB — (dans le menu d'autocompletion) sélectionner la proposition suivante
 ```
 &a= — aligne en fonction du caractère « = » (*)
 &a: — aligne en fonction du caractère « : » (*)
+```
+
+## Plugin NeoComplete
+
+```
+TAB — (dans le menu d'autocompletion) sélectionner la proposition suivante. (*)
+CTRL-g — Défait la completion. (*)
+CTRL-y — Ferme la popup de completion. (*)
 ```
 

@@ -22,8 +22,8 @@ If gvim isn't appearing, try to run text based vim from terminal.
 
 ### Dependencies
 
-You'll need vim 7.4+ compiled with python and ruby support (if you use all plugins in my .vimrc file).
-You can check with `vim --version | grep '+python'` and `vim -- version | grep '+ruby'` or you can use vim command mode : `:echo has('python')` and `:echo has('ruby')`.
+You'll need vim 7.4+ compiled with python, ruby and lua support (if you use all plugins in my .vimrc file).
+You can check with `vim --version | grep '+python'`, `vim --version | grep '+ruby'` and `vim --version | grep '+ruby'` or you can use vim command mode : `:echo has('python')`, `:echo has('ruby')` and `:echo has('lua')`.
 
 ## BÉPO friendly
 
@@ -36,7 +36,6 @@ If `isbepo` variable is set to `1`. Then, all keys are remaped to QWERTY while i
 
 + [Ack](https://github.com/mileszs/ack.vim) — Search for pattern in files.
 + [Airline](https://github.com/bling/vim-airline) — A beautiful status bar.
-+ [AutoClose](https://github.com/Townk/vim-autoclose) — Automatically close any character that could have a closing counterpart.
 + [ctrlp](https://github.com/kien/ctrlp.vim) — Search for files.
 + [Colorizer](https://github.com/lilydjwg/colorizer) — To colorize text in the form #rrggbb or #rgb.
 + [Cpp Enhanced Highlight](https://github.com/octol/vim-cpp-enhanced-highlight) — Better C++ highlight.
@@ -44,13 +43,18 @@ If `isbepo` variable is set to `1`. Then, all keys are remaped to QWERTY while i
 + [Fugitive](https://github.com/tpope/vim-fugitive) — An awesome Git wrapper.
 + [LustyExplorer & LustyJuggler](https://github.com/sjbach/lusty) — A fuzzy file and buffer explorer.
 + [Multiple cursors](https://github.com/kristijanhusak/vim-multiple-cursors) — Sublime Text-like multiple cursors feature.
++ [Markdown](https://github.com/plasticboy/vim-markdown) — Support for markdown.
++ [NeoComplete](https://github.com/Shougo/neocomplete.vim) — Handle completion.
 + [Tabular](https://github.com/godlygeek/tabular) — To align regions of text.
 + [UltiSnips](https://github.com/sirver/ultisnips) — Excellent solution to handle snippets in VIM.
-+ [VIM Markdown](https://github.com/plasticboy/vim-markdown) — Support for markdown.
-+ [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) — Handle autocompletion.
 
 Colorscheme used :
 [Monokai](https://github.com/crusoexia/vim-monokai)
+
+### You might be interested in
+
++ [AutoClose](https://github.com/Townk/vim-autoclose) — Automatically close any character that could have a closing counterpart.
++ [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) — Handle autocompletion.
 
 ## About Ack
 
@@ -60,11 +64,10 @@ You may have to change the `g:ackprg` variable in [conf/ack.vim](conf/ack.vim) f
 
 ## About auto-completion
 
-To use YouCompleteMe plugin, you'll need to build a third party program. You should read the doc about it with `:help youcompleteme`.
-You may need to install extra dependencies.
+My config uses [NeoComplete](https://github.com/Shougo/neocomplete.vim) plugin to handle autocompletion.
 
-Some YouCompleteMe alternatives :
-+ [neocomplete](https://github.com/Shougo/neocomplete.vim)
+Some alternatives :
++ [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) — you'll need to build a third party program.
 + [supertab](https://github.com/ervandew/supertab)
 + [clang_complete](https://github.com/Rip-Rip/clang_complete)
 + [python-mode](https://github.com/klen/python-mode)
@@ -78,8 +81,8 @@ They may fit your needs or not. Just make your choice and modify the .vimrc file
 This config uses SirVer's UltiSnips to handle snippets.
 You can learn more about it with `:help UltiSnips` and by looking at its github page [UltiSnips' readme](https://github.com/sirver/ultisnips).
 SirVer made some screencasts very useful to start using it.
-Since YouCompleteMe already use "Tab" key, I choose "c-j" (Ctrl + J) as UltiSnips' trigger key.
-By the way, YouCompleteMe provides a nice completion menu for UltiSnips.
+Since YouCompleteMe/NeoComplete already use "Tab" key, I choose "c-j" (Ctrl + J) as UltiSnips' trigger key.
+By the way, YouCompleteMe/NeoComplete provides a nice completion menu for UltiSnips.
 
 My .vimrc file comes with tons of snippets from [honza repository](https://github.com/honza/vim-snippets).
 

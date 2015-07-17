@@ -34,8 +34,6 @@ Plugin 'gmarik/Vundle.vim', {'name': 'vundle'}
 Plugin 'mileszs/ack.vim'
 " A beautiful status/tabline.
 Plugin 'bling/vim-airline'
-" Automatically close any character that could have a closing counterpart.
-Plugin 'Townk/vim-autoclose'
 " To search for files.
 Plugin 'kien/ctrlp.vim'
 " To colorize all text in the form #rrggbb or #rgb.
@@ -50,16 +48,16 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'sjbach/lusty'
 " Sublime Text-like multiple cursors feature.
 Plugin 'kristijanhusak/vim-multiple-cursors'
+" Support for markdown.
+Plugin 'plasticboy/vim-markdown'
+" Handle completion.
+Plugin 'Shougo/neocomplete.vim'
 " Various snippets for UltiSnips.
 Plugin 'honza/vim-snippets'
 " Useful plugin to align regions of text.
 Plugin 'godlygeek/tabular'
 " Excellent solution to handle snippets in Vim.
 Plugin 'sirver/ultisnips'
-" Support for markdown.
-Plugin 'plasticboy/vim-markdown'
-" Autocompletion.
-Plugin 'Valloric/YouCompleteMe'
 
 " A beautiful colorscheme.
 Plugin 'crusoexia/vim-monokai'
@@ -248,6 +246,7 @@ let g:airline_right_sep                  = '◀'
 source ~/.vim/conf/lusty.vim
 source ~/.vim/conf/ack.vim
 source ~/.vim/conf/tabular.vim
+source ~/.vim/conf/neocomplete.vim
 
 " ——————————————————————————————————————————
 
