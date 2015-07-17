@@ -46,6 +46,8 @@ You just have to tell whether you are using BÉPO or not by modifying [isbepo.vi
 You should add `conf/isbepo.vim` to your `.gitignore` file.
 If `isbepo` variable is set to `1`. Then, all keys are remaped to QWERTY while in NORMAL and VISUAL mode.
 
+If you want my french "Cheat Sheet" for this config, see [bepo-french-vim-cheatsheet.md](bepo-french-vim-cheatsheet.md) file.
+
 ## Plugins
 
 + [Ack](https://github.com/mileszs/ack.vim) — Search for pattern in files.
