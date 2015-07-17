@@ -13,6 +13,7 @@ Don't hesitate to change anything to fit your needs.
 + [About snippets](#about-snippets)
 + [About multiples cursors](#about-multiples-cursors)
 + [About syntax checker : Syntastic](#about-syntax-checker--syntastic)
++ [Considerations about Windows](#considerations-about-windows)
 + [Good resources to learn more about VIM editor](#good-resources-to-learn-more-about-vim-editor)
     + [Inspirations](#inspirations)
 
@@ -113,6 +114,15 @@ See [Syntastic wiki](https://github.com/scrooloose/syntastic/wiki/Syntax-Checker
 
 To check Python syntax, I use [Pylint](https://github.com/scrooloose/syntastic/wiki/Python%3A---pylint).
 Since I'm a Python 3 developer, I set a Python 3 interpreter in my [syntastic.vim](./conf/syntastic.vim) conf file.
+
+## Considerations about Windows
+
+This configuration may have some issues under Windows.
+I haven't tested it under Windows yet, but here are some notes about how to port it.
+
++ [vimrc](./vimrc) — set proper paths for Vundle installation and others conf files at the end.
++ [ack.vim](./conf/ack.vim) — set a proper ack program : `let g:ackprg = "…"`
++ [syntastic.vim](./conf/syntastic.vim) — set a proper path to python interpreter : `let g:syntastic_python_python_exec = '…'`
 
 ## Good resources to learn more about VIM editor
 
