@@ -212,12 +212,19 @@ if isbepo == 1
     " Remap PageUp and PageDown.
     nnoremap <leader>s <PageUp>
     nnoremap <leader>t <PageDown>
+
+    " Better tab shortcut.
+    nnoremap ,t gT
+    nnoremap ,s gt
 else
     noremap k gk
     noremap j gj
 
     nnoremap <leader>k <PageUp>
     nnoremap <leader>j <PageDown>
+
+    nnoremap gj gT
+    nnoremap gk gt
 endif
 
 " ___________ Plugins configuration ________

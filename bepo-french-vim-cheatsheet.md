@@ -42,6 +42,8 @@ k — début du mot précédent
 K — début du MOT précédent
 } — paragraphe suivant
 { — paragraphe précédent
+,t — aller à l'onglet gauche
+,s — aller à l'onglet droit
 ```
 
 ### Insertion
