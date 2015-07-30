@@ -44,6 +44,10 @@ K — début du MOT précédent
 { — paragraphe précédent
 ,t — aller à l'onglet gauche
 ,s — aller à l'onglet droit
+C — bas de l'écran
+R — haut de l'écran
+; — bas du fichier
+,, — haut du fichier
 ```
 
 ### Insertion
@@ -93,6 +97,7 @@ CTRL-r — refaire
 o — remplacer le caractère sous le curseur
 y — supprimer/couper sous le curseur
 Y — supprimer/couper avant le curseur
+T — supprimer le caractère de la ligne de fin à la fin de la ligne courante
 ```
 
 ### Recherche
@@ -216,7 +221,7 @@ ESCAPE — retour au VIM normal
 
 ```
 TAB — (dans le menu d'autocompletion) sélectionner la proposition suivante. (*)
-CTRL-g — Défait la completion. (*)
-CTRL-y — Ferme la popup de completion. (*)
+CTRL-g — défait la completion. (*)
+CTRL-y — ferme la popup de completion. (*)
 ```
 

@@ -1,9 +1,9 @@
 ""
 "" Mapping du clavier bépo->qwerty en mode normal.
 ""
- 
+
 " Configuration des lettres.
- 
+
 noremap b q
 noremap é w
 noremap p e
@@ -78,13 +78,13 @@ noremap Q M
 noremap G <
 noremap H >
 noremap F ?
- 
+
 " Configuration du copié sur le ç car y est sur la touche composé ^
- 
+
 noremap ç y
 
 " Configuration des nombres
- 
+
 noremap $ `
 noremap " 1
 noremap « 2
