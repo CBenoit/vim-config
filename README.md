@@ -66,6 +66,7 @@ If you want my french cheatsheet for this config, see [bepo-french-vim-cheatshee
 + [Syntastic](https://github.com/scrooloose/syntastic) — Syntax checking.
 + [Tabular](https://github.com/godlygeek/tabular) — To align regions of text.
 + [UltiSnips](https://github.com/sirver/ultisnips) — Excellent solution to handle snippets in VIM.
++ [vim2hs](https://github.com/dag/vim2hs) — A collection of vimscripts for Haskell development.
 
 Colorscheme used :
 [Monokai](https://github.com/crusoexia/vim-monokai)

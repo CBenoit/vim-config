@@ -24,6 +24,7 @@ Les commentaires avec « (*) » à la fin sont des raccourcis créés ou modif
 + [Plugin Ack](#plugin-ack)
 + [Plugin Tabular](#plugin-tabular)
 + [Plugin NeoComplete](#plugin-neocomplete)
++ [Plugin vim2hs](#plugin-vim2hs)
 
 ## Mode normal
 
@@ -223,5 +224,12 @@ ESCAPE — retour au VIM normal
 TAB — (dans le menu d'autocompletion) sélectionner la proposition suivante. (*)
 CTRL-g — défait la completion. (*)
 CTRL-y — ferme la popup de completion. (*)
+```
+
+## Plugin vim2hs
+
+Commande
+```
+HPaste — partager du code sur http://lpaste.net
 ```
 

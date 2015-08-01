@@ -60,6 +60,8 @@ Plugin 'scrooloose/syntastic'
 Plugin 'godlygeek/tabular'
 " Excellent solution to handle snippets in Vim.
 Plugin 'sirver/ultisnips'
+" A collection of vimscripts for Haskell development
+Plugin 'dag/vim2hs'
 
 " A beautiful colorscheme.
 Plugin 'crusoexia/vim-monokai'
