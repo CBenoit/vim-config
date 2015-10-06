@@ -15,6 +15,8 @@ Don't hesitate to change anything to fit your needs.
 + [About snippets](#about-snippets)
 + [About multiples cursors](#about-multiples-cursors)
 + [About syntax checker : Syntastic](#about-syntax-checker--syntastic)
++ [About Eclim](#about-eclim)
++ [Better Java syntax highlighting](#better-java-syntax-highlighting)
 + [Considerations about Windows](#considerations-about-windows)
 + [Good resources to learn more about VIM editor](#good-resources-to-learn-more-about-vim-editor)
     + [Inspirations](#inspirations)
@@ -120,12 +122,12 @@ Since I'm a Python 3 developer, I set a Python 3 interpreter in my [syntastic.vi
 
 ## About Eclim
 
-    > Eclim provides the ability to access Eclipse code editing features
-    > (code completion, searching, code validation, and many more) via the
-    > command line or a local network connection, allowing those features
-    > to be integrated with your favorite editor. Eclim provides an integration
-    > with Vim, but third party clients have been created to add eclim support
-    > to other editors as well (emacs, sublime text 2, textmate).
+    Eclim provides the ability to access Eclipse code editing features
+    (code completion, searching, code validation, and many more) via the
+    command line or a local network connection, allowing those features
+    to be integrated with your favorite editor. Eclim provides an integration
+    with Vim, but third party clients have been created to add eclim support
+    to other editors as well (emacs, sublime text 2, textmate).
 
 See [Eclim website](http://eclim.org/index.html) to get it.
 
