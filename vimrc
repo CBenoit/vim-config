@@ -100,6 +100,8 @@ set guioptions-=r   " Remove right scrollbar.
 set guioptions-=L   " Prevent left scrollbar to be present when there is a vertically split window.
 set guioptions-=m   " Remove menu.
 
+set list lcs=tab:\|\ " Display the indention levels with vertical lines.
+
 " ——— Search ———
 set ignorecase	" Ignore case while searching.
 set smartcase	" If search term contain an uppercase it become case sensitive.
