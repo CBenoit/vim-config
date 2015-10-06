@@ -1,6 +1,6 @@
 " Change the search command for ack and specify the default arguments givent
 " to it. See :h g:ackprg
-let g:ackprg = "ack -s -H --nocolor --column"
+let g:ackprg = "ack-grep -s -H --nocolor --column"
 
 " Disable quickfix window ack mapping to avoid some conflicts with bépo remapping (with t key used to navigate). See :h ack-mappings
 let g:ack_apply_qmappings=0
