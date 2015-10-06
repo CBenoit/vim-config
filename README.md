@@ -118,6 +118,21 @@ See [Syntastic wiki](https://github.com/scrooloose/syntastic/wiki/Syntax-Checker
 To check Python syntax, I use [Pylint](https://github.com/scrooloose/syntastic/wiki/Python%3A---pylint).
 Since I'm a Python 3 developer, I set a Python 3 interpreter in my [syntastic.vim](./conf/syntastic.vim) conf file.
 
+## About Eclim
+
+    > Eclim provides the ability to access Eclipse code editing features
+    > (code completion, searching, code validation, and many more) via the
+    > command line or a local network connection, allowing those features
+    > to be integrated with your favorite editor. Eclim provides an integration
+    > with Vim, but third party clients have been created to add eclim support
+    > to other editors as well (emacs, sublime text 2, textmate).
+
+See [Eclim website](http://eclim.org/index.html) to get it.
+
+## Better Java syntax highlighting
+
+You can find a better java syntax highlighting [here](https://github.com/sentientmachine/erics_vim_syntax_and_color_highlighting/).
+
 ## Considerations about Windows
 
 This configuration may have some issues under Windows.
