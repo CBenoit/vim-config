@@ -25,9 +25,7 @@ Backup your `~/.vim` folder if you want to.
 
 Get this config from github.
 `$ git clone https://github.com/CBenoit/vim-config ~/.vim`
-
-Create a symbolic link to ~/.vim/vimrc :
-`$ ln -s ~/.vim/vimrc ~/.vimrc`
+I noticed that creating a symbolic link to ~/.vim/vimrc isn't necessary.
 
 Plugins managed using Vundle! You can easily install or remove plugins, and they are installed into ~/.vim/bundle/.
 See https://github.com/gmarik/vundle for more information.
