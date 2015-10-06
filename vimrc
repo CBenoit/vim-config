@@ -128,8 +128,8 @@ filetype indent on
 set background=dark
 colorscheme monokai
 
-" Use "DejaVu Sans Mono" font, size 10.
-set guifont=DejaVu\ Sans\ Mono\ 10
+" Use "DejaVu Sans Mono" font, size 13.
+set guifont=DejaVu\ Sans\ Mono\ 13
 set antialias
 
 " Highlight hard spaces.
@@ -255,6 +255,9 @@ let g:airline_left_sep                   = '▶'
 let g:airline_right_sep                  = '◀'
 " Make the statusline appear all the time.
 set laststatus=2
+
+" >> Eclim
+let g:EclimCompletionMethod = 'omnifunc'
 
 source ~/.vim/conf/lusty.vim
 source ~/.vim/conf/ack.vim
