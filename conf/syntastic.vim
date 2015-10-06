@@ -14,5 +14,5 @@ let g:syntastic_check_on_wq = 0
 
 " >> Python
 " Use Python 3 interpreter to check code.
-let g:syntastic_python_python_exec = '/bin/python3'
+let g:syntastic_python_python_exec = '/usr/bin/python3'
 
