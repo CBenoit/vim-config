@@ -3,7 +3,12 @@
 conf/isbepo.vim
 .gitignore
 .netrwhist
+.gitignore
 
 # Folders
 bundle/*
+eclim/*
+plugin/*
+syntax/*
+
 

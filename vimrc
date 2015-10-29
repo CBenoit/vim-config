@@ -100,8 +100,6 @@ set guioptions-=r   " Remove right scrollbar.
 set guioptions-=L   " Prevent left scrollbar to be present when there is a vertically split window.
 set guioptions-=m   " Remove menu.
 
-set list lcs=tab:\|\ " Display the indention levels with vertical lines.
-
 " ——— Search ———
 set ignorecase	" Ignore case while searching.
 set smartcase	" If search term contain an uppercase it become case sensitive.
@@ -111,6 +109,17 @@ set hlsearch	" Highlight search results.
 " ——— Beep ———
 set novisualbell	" Prevent VIM visual bell (blinking).
 set noerrorbells	" Same.
+
+" ——— LaTeX concealing ———
+
+" Enable automatic folding for LaTeX (sections, chapters, etc).
+let g:tex_fold_enabled = 1
+" Set tex conceal to level 2.
+let g:tex_conceal = 2
+" Makes sure that text is unconcealed when the cursor is on the same line.
+set concealcursor=""
+" Concealed superscripts and subscripts often do not look very good. Disabling them.
+let g:tex_conceal="adgm"
 
 " Allow backspacing over everything in insert mode.
 set backspace=indent,eol,start
