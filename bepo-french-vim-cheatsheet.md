@@ -106,6 +106,8 @@ T — supprimer le caractère de la ligne de fin à la fin de la ligne courante
 ```
 f — chercher (vers le bas)
 F — chercher (vers le haut)
+' — aller à la prochaine occurence
+? — aller à l'occurence précédente
 ```
 
 ### Raccourcis
