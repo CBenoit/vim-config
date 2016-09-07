@@ -44,6 +44,8 @@ Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'editorconfig/editorconfig-vim'
 " An awesome Git wrapper !
 Plugin 'tpope/vim-fugitive'
+" To recognizes .gradle files as being groovy syntax
+Plugin 'tfnico/vim-gradle'
 " A fuzzy file and buffer explorer !
 Plugin 'sjbach/lusty'
 " Sublime Text-like multiple cursors feature.
@@ -229,6 +231,13 @@ if isbepo == 1
     " Better tab shortcut.
     nnoremap ,t gT
     nnoremap ,s gt
+
+    " Splits
+    nnoremap <silent> S :resize -5<CR>
+    nnoremap <silent> T :resize +5<CR>
+    nnoremap <silent> C :vertical resize -5<CR>
+    nnoremap <silent> R :vertical resize +5<CR>
+    nnoremap Z <C-W><C-W>
 else
     noremap k gk
     noremap j gj
