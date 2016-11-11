@@ -42,18 +42,26 @@ Plugin 'lilydjwg/colorizer'
 Plugin 'octol/vim-cpp-enhanced-highlight'
 " Help to define and maintain consistent coding styles.
 Plugin 'editorconfig/editorconfig-vim'
+" Update folds only when called-for.
+Plugin 'Konfekt/FastFold'
 " An awesome Git wrapper !
 Plugin 'tpope/vim-fugitive'
 " To recognizes .gradle files as being groovy syntax
 Plugin 'tfnico/vim-gradle'
+" HTML5 omnicomplete and syntax
+Plugin 'othree/html5.vim'
 " A fuzzy file and buffer explorer !
 Plugin 'sjbach/lusty'
 " Sublime Text-like multiple cursors feature.
 Plugin 'kristijanhusak/vim-multiple-cursors'
 " Support for markdown.
 Plugin 'plasticboy/vim-markdown'
+" Mustache and handlebars mode for vim
+Plugin 'mustache/vim-mustache-handlebars'
 " Handle completion.
 Plugin 'Shougo/neocomplete.vim'
+" Vim configuration for Rust.
+Plugin 'rust-lang/rust.vim'
 " Various snippets for UltiSnips.
 Plugin 'honza/vim-snippets'
 " Syntax checking
@@ -278,6 +286,18 @@ set laststatus=2
 
 " >> Eclim
 let g:EclimCompletionMethod = 'omnifunc'
+
+" >> FastFold
+let g:tex_fold_enabled=1
+let g:vimsyn_folding='af'
+let g:xml_syntax_folding = 1
+
+" >> HTML5
+" Disable all these. I don't need them.
+let g:html5_event_handler_attributes_complete = 0
+let g:html5_rdfa_attributes_complete = 0
+let g:html5_microdata_attributes_complete = 0
+let g:html5_aria_attributes_complete = 0
 
 source ~/.vim/conf/lusty.vim
 source ~/.vim/conf/ack.vim
