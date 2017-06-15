@@ -40,6 +40,8 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'lilydjwg/colorizer'
 " Better C++ highlight.
 Plugin 'octol/vim-cpp-enhanced-highlight'
+" Print documents in echo area.
+Plugin 'Shougo/echodoc.vim'
 " Help to define and maintain consistent coding styles.
 Plugin 'editorconfig/editorconfig-vim'
 " Update folds only when called-for.
@@ -60,6 +62,8 @@ Plugin 'plasticboy/vim-markdown'
 Plugin 'mustache/vim-mustache-handlebars'
 " Handle completion.
 Plugin 'Shougo/neocomplete.vim'
+" Racer support (rust autocompletion).
+Plugin 'racer-rust/vim-racer'
 " Vim configuration for Rust.
 Plugin 'rust-lang/rust.vim'
 " Various snippets for UltiSnips.
@@ -295,6 +299,13 @@ let g:html5_event_handler_attributes_complete = 0
 let g:html5_rdfa_attributes_complete = 0
 let g:html5_microdata_attributes_complete = 0
 let g:html5_aria_attributes_complete = 0
+
+" >> Racer
+let g:racer_cmd = "/home/benoit/LocalDev/racer/target/release/racer"
+let g:racer_experimental_completer = 1
+
+" >> echodoc
+let g:echodoc_enable_at_startup = 1
 
 source ~/.vim/conf/lusty.vim
 source ~/.vim/conf/ack.vim
