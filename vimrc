@@ -34,6 +34,8 @@ Plugin 'gmarik/Vundle.vim', {'name': 'vundle'}
 Plugin 'mileszs/ack.vim'
 " A beautiful status/tabline.
 Plugin 'bling/vim-airline'
+" Provide easy code formatting in Vim by integrating existing code formatters.
+Plugin 'Chiel92/vim-autoformat'
 " To search for files.
 Plugin 'kien/ctrlp.vim'
 " To colorize all text in the form #rrggbb or #rgb.
@@ -311,6 +313,10 @@ let g:racer_experimental_completer = 1
 
 " >> echodoc
 let g:echodoc_enable_at_startup = 1
+
+" >> autoformat
+" shortcut to autoformat code.
+noremap <F3> :Autoformat<CR>
 
 " >> bigger configurations files
 source ~/.vim/conf/lusty.vim
