@@ -48,6 +48,8 @@ Plugin 'editorconfig/editorconfig-vim'
 Plugin 'Konfekt/FastFold'
 " An awesome Git wrapper !
 Plugin 'tpope/vim-fugitive'
+" gdscript syntax file for vim
+Plugin 'quabug/vim-gdscript'
 " To recognizes .gradle files as being groovy syntax
 Plugin 'tfnico/vim-gradle'
 " HTML5 omnicomplete and syntax
@@ -76,6 +78,8 @@ Plugin 'godlygeek/tabular'
 Plugin 'sirver/ultisnips'
 " A collection of vimscripts for Haskell development
 Plugin 'dag/vim2hs'
+" gmpl syntax
+Plugin 'maelvalais/gmpl.vim'
 
 " A beautiful colorscheme.
 Plugin 'crusoexia/vim-monokai'
@@ -113,6 +117,7 @@ set guioptions-=T   " Remove gvim toolbar.
 set guioptions-=r   " Remove right scrollbar.
 set guioptions-=L   " Prevent left scrollbar to be present when there is a vertically split window.
 set guioptions-=m   " Remove menu.
+set noshowmode      " doesn't show the mode in the command line. Airline already show that.
 
 " ——— Search ———
 set ignorecase	" Ignore case while searching.
@@ -307,6 +312,7 @@ let g:racer_experimental_completer = 1
 " >> echodoc
 let g:echodoc_enable_at_startup = 1
 
+" >> bigger configurations files
 source ~/.vim/conf/lusty.vim
 source ~/.vim/conf/ack.vim
 source ~/.vim/conf/tabular.vim
