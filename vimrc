@@ -284,9 +284,6 @@ let g:airline_right_sep                  = '◀'
 " Make the statusline appear all the time.
 set laststatus=2
 
-" >> Eclim
-let g:EclimCompletionMethod = 'omnifunc'
-
 " >> FastFold
 let g:tex_fold_enabled=1
 let g:vimsyn_folding='af'
@@ -305,5 +302,4 @@ source ~/.vim/conf/tabular.vim
 source ~/.vim/conf/neocomplete.vim
 source ~/.vim/conf/syntastic.vim
 
-" ——————————————————————————————————————————
 
