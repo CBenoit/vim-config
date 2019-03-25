@@ -232,6 +232,11 @@ noremap <leader>cd :cd %:p:h<CR>
 " current window).
 noremap <leader>lcd :lcd %:p:h<CR>
 
+" shortcut to replace hardspaces by tildes
+noremap <leader>k :%s/ /\~/g<CR>
+" shortcut to insert a latex right arrow
+inoremap iar \(\rightarrow\)
+
 " Set isbepo variable.
 source ~/.vim/conf/isbepo.vim
 
